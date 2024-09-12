@@ -83,6 +83,29 @@ body {
   font-weight: 700;
 }
 
+.pesquisar input[type="text"] {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding: 4px;
+    border-radius: 40px;
+    border: 2px solid var(--gray2);
+    width: 200px;
+    outline: none;
+    transition: border 0.3s ease;
+}
+
+.pesquisar input[type="text"]:focus {
+    border-color: var(--verde1);
+}
+
+.pesquisar button {
+    padding: 3px 8px;
+    background-color: linear-gradient(180deg, var(--black2) 0%, var(--black1) 100%);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
 .point {
   color: var(--verde1);
 }
@@ -550,6 +573,9 @@ body {
     padding-bottom: 10px;
     text-align: center;
   }
+
+
+
   .link {
     padding: 7px 10px;
   }

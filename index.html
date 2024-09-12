@@ -2,7 +2,6 @@
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" /> <!-- alterar essa linha-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"/>
@@ -16,7 +15,7 @@
       <nav class="nav_hero">
         <div class="container nav_container">
           <div class="logo">
-            <h2 class="logo_name">Instituto de Menores Dom Antônio Zattera<span class="point">.</span></h2>
+            <h2 class="logo_name">Instituto de Menores Dom Antônio Zattera</h2>
           </div>
           <div class="links">
             <a href="#inicio" class="link">Início</a>
@@ -25,66 +24,12 @@
             <a href="#paginas" class="link">Páginas Relacionadas</a>
             <a href="#contato" class="link">Contato</a>
           </div>
-        </div>
-      </nav>
-
-      <section id="galeria" class="testimony">
-        <div class="container">
-          <div
-            id="carouselExampleInterval"
-            class="carousel slide"
-            data-bs-ride="carousel"
-          >
-            <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="10000">
-                <img
-                  src="#"
-                  class="d-block w-100"
-                  alt="Foto 01"
-                />
-              </div>
-              <div class="carousel-item" data-bs-interval="2000">
-                <img
-                  src="#"
-                  class="d-block w-100"
-                  alt="Foto 02"
-                />
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="./assets/img/lactarius1.JPG"
-                  class="d-block w-100"
-                  alt="Foto 03"
-                />
-              </div>
-            </div>
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselExampleInterval"
-              data-bs-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#carouselExampleInterval"
-              data-bs-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+          <div class="pesquisar">
+            <input type="text" id="searchTerm" placeholder="Buscar...">
+            <button type="submit" id="searchButton">Buscar</button>
           </div>
         </div>
-      </section>
+      </nav>
 
       <section id="inicio" class="container hero_main">
         <div class="hero_text">
@@ -149,23 +94,47 @@
           </div>
           <div class="card">
             <div class="cards_text">
-              <h3 class="card_title">
-                Chlorophyllum<span class="point">.</span>
-              </h3>
+              <h3 class="card_title">Aulas de Dança</h3>
               <p class="card_copy">
-                Pertencente ao filo Basidiomycota e ordem Agaricales, essa
-                espécie costuma ser mais encontrada em locais de clima tropical
-                e subtropical (embora não restrita a essas regiões).Pertencente
-                ao filo Basidiomycota e ordem Agaricales, essa espécie costuma
-                ser mais encontrada em locais de clima tropical e subtropical
-                (embora não restrita a essas regiões).
+                As aulas de dança fazem parte das atividades culturais oferecidas aos jovens da instituição. 
+                Voltadas para a expressão artística e desenvolvimento corporal, 
+                essas aulas incentivam a criatividade e disciplina, proporcionando aos alunos a oportunidade de aprender diferentes estilos de dança. 
+                Além de promover a integração social, as aulas contribuíam para o bem-estar físico e emocional dos menores, 
+                sendo uma forma de lazer e de educação que valorizava o talento individual e a convivência em grupo.
               </p>
             </div>
           </div>
           <div class="background">
-            <img src="./assets/img/Chlorophyllum1.jpg" alt="" class="background_img"/>
+            <img src="img/foto07.jpg" alt="Foto de crianças dançando" class="background_img"/>
           </div>
         </article>
+      </section>
+
+      <section id="galeria" class="testimony">
+        <div class="container">
+            <h2 class="subtitle">Galeria de fotos</h2>
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="img/teste.webp" class="d-block w-100" alt="Foto 01"/>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="img/teste.webp" class="d-block w-100" alt="Foto 02"/>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/teste.webp" class="d-block w-100" alt="Foto 03"/>
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            </div>
       </section>
 
     </main>
@@ -211,27 +180,17 @@
       <span class="ir-arriba" id="button-down">^</span>
       <div class="contact">
         <div class="item_contact">
-          <h3 class="contact_title">FungIFFAR</h3>
+          <h3 class="contact_title">Chave Pix: doeparaoimdaz.com</h3>
         </div>
         <div class="item_contact">
-          <h3 class="contact_title">FungIFFAR@gmail.com</h3>
+          <h3 class="contact_title">institutodemenores@gmail.com</h3>
         </div>
         <div class="item_contact">
-          <h3 class="contact_title">Panambi/RS</h3>
+          <h3 class="contact_title">(53) 999030409</h3>
         </div>
         <div class="item_contact">
-          <a
-            href="https://www.instagram.com/fungiffar/?hl=es-la"
-            class="icon-social"
-            target="blank"
-            ><i class="fa fa-instagram" style="font-size: 20px"></i
-          ></a>
-          <a href="https://www.facebook.com/" class="icon-social" target="blank"
-            ><i class="fa fa-facebook" style="font-size: 20px"></i
-          ></a>
-          <a href="https://twitter.com/" class="icon-social" target="blank"
-            ><i class="fa fa-twitter" style="font-size: 20px"></i
-          ></a>
+          <a href="https://www.instagram.com/imdaz.1924/" class="icon-social" target="_blank"><i class="fa fa-instagram" style="font-size: 20px"></i></a>
+          <a href="https://www.facebook.com/institutodemenoresdaz" class="icon-social" target="_blank"><i class="fa fa-facebook" style="font-size: 20px"></i></a>
         </div>
       </div>
     </footer>
