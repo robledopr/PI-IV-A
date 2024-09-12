@@ -1,116 +1,245 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Instituto de Menores Dom Antônio Zattera</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css" />
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css" />
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-</head>
-
-<body>
-    <header>
-        <div class="titulo">
-            <h1>Instituto de Menores Dom Antônio Zattera</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" /> <!-- alterar essa linha-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <script src="script.js"></script>
+    <title>Instituto de Menores Dom Antonio Zattera</title>
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="nav_hero">
+        <div class="container nav_container">
+          <div class="logo">
+            <h2 class="logo_name">Instituto de Menores Dom Antônio Zattera<span class="point">.</span></h2>
+          </div>
+          <div class="links">
+            <a href="#inicio" class="link">Início</a>
+            <a href="#sobre" class="link">Sobre</a>
+            <a href="#servicos" class="link">Serviços</a>
+            <a href="#paginas" class="link">Páginas Relacionadas</a>
+            <a href="#contato" class="link">Contato</a>
+          </div>
         </div>
+      </nav>
 
-        <nav class="menus">
-            <ul>
-                <li><a href="#inicio">Início</a></li>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#servicos">Serviços</a></li>
-                <li><a href="#paginas">Páginas</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-            <div class="pesquisar">
-                <input type="text" placeholder="Buscar...">
-                <button type="submit">Buscar</button>
+      <section id="galeria" class="testimony">
+        <div class="container">
+          <div
+            id="carouselExampleInterval"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img
+                  src="#"
+                  class="d-block w-100"
+                  alt="Foto 01"
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img
+                  src="#"
+                  class="d-block w-100"
+                  alt="Foto 02"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./assets/img/lactarius1.JPG"
+                  class="d-block w-100"
+                  alt="Foto 03"
+                />
+              </div>
             </div>
-        </nav>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleInterval"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleInterval"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section id="inicio" class="container hero_main">
+        <div class="hero_text">
+          <h1 class="title">Instituto de Menores Dom Antonio Zattera</h1>
+          <p class="copy">Conheça mais sobre a história do IMDAZ.</p>
+          <a href="#sobre" class="cta" id="cta">Saber Mais</a>
+        </div>
+        <img src="img/foto_03.avif" alt="" class="mockup" />
+      </section>
     </header>
-
-<div class="slider">
-    <div><img src="img/foto_01.png" alt="Slide 1"></div>
-    <div><img src="img/foto_02.webp" alt="Slide 2"></div>
-    <div><img src="img/foto_01.png" alt="Slide 3"></div>
-</div>
-
-
-<section class="content">
-    <div id="#inicio" class="content-item">
-        <h2>Bem-vindo ao IMDAZ</h2>
-        <p>Texto sobre o instituto e sua missão.</p>
-    </div>
-    <div id="#sobre" class="content-item">
-        <h2>Sobre nós</h2>
-        <p>Em 3 de julho de 1924, foi fundada a Associação Protetora de Meninos Desvalidos, que em 1925 passou a se chamar Asilo de Meninos Desvalidos de Pelotas. Fundada por Dom Joaquim Ferreira de Mello, a instituição enfrentou dificuldades iniciais até receber o apoio dos Irmãos Lassalistas em 1926, que melhoraram significativamente a qualidade do ensino. Em 1942, o Juiz Dr. José Alecina Lemos iniciou uma campanha para adquirir um novo imóvel para um abrigo de menores, mas o estado não assumiu a manutenção. Assim, o prédio foi transferido para o Asilo em 1944, que foi inaugurado como Instituto de Menores de Pelotas.</p>
-    </div>
-    <div id="#servicos" class="content-item">
-        <h2>Serviços Oferecidos</h2>
-        <p>Descrição dos serviços que o instituto oferece para a comunidade.</p>
-    </div>
-    <div id="#paginas" class="content-item">
-        <h2>Páginas Relacionadas</h2>
-        <p>Links e informações adicionais sobre temas relevantes.</p>
-    </div>
-    <div id="#contato" class="content-item">
-        <h2>Contato</h2>
-        <p>Formas de entrar em contato com o Instituto.</p>
-    </div>
-</section>
-
-<footer class="bg-dark text-white pt-5">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-3">
-                <h5>Publicações mais populares</h5>
-                <ul class="list-unstyled">
-                    <li><a href="#" class="text-white">Post 1</a></li>
-                    <li><a href="#" class="text-white">Post 2</a></li>
-                    <li><a href="#" class="text-white">Post 3</a></li>
-                </ul>
-            </div>
-            <div class="col-md-3">
-                <h5>Tags</h5>
-                <ul class="list-unstyled">
-                    <li><a href="#" class="text-white">Tag 1</a></li>
-                    <li><a href="#" class="text-white">Tag 2</a></li>
-                    <li><a href="#" class="text-white">Tag 3</a></li>
-                </ul>
-            </div>
-            <div class="col-md-3">
-                <h5>Um pouco sobre nós</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet massa velit.</p>
-            </div>
-            <div class="col-md-3">
-                <h5>Contato</h5>
-                <p>Email:</p>
-                <p>institutodemenores@gmail.com</p>
-                <p>Telefone:</p>
-                <p>(53) 999030409</p>
-            </div>
+    <main>
+      <section id="sobre" class="services">
+        <div class="container">
+          <h2 class="subtitle">Sobre nós</h2>
+          <p class="copy_section">
+            Sejam bem vindos! O objetivo dessa página é mostrar a origem, a missão, nossos valores,
+            e como entrar em contato conosco para ajudar.</p>
+            <h2 class="subtitle">Nossa história</h2>
+            <p class="copy_section">
+                A Associação Protetora de Meninos Desvalidos foi fundada em 1924, transformando-se no Asilo de Meninos Desvalidos em 1925. 
+                Em 1926, a chegada dos Irmãos Lassalistas melhorou a educação da instituição, que se expandiu rapidamente. 
+                A escola, conhecida como Colégio da Igrejinha, ganhou popularidade e alcançou 300 alunos em 1938. 
+                Em 1942, um terreno foi adquirido para abrigar menores, mas o imóvel permaneceu fechado por 18 meses. 
+                Em 1944, Dom Antônio Zattera assumiu a administração e inaugurou o Instituto de Menores de Pelotas.</p>
         </div>
-        <hr class="bg-white">
-        <div class="d-flex justify-content-between align-items-center">
-            <p class="mb-0">&copy; 2024 Instituto de Menores Dom Antônio Zattera. Todos os direitos reservados.</p>
-            <div>
-                <a href="https://www.facebook.com/institutodemenoresdaz" target="_blank" class="text-white mx-2"><i class="bi bi-facebook"></i></a>
-                <a href="#" class="text-white mx-2"><i class="bi bi-twitter"></i></a>
-                <a href="https://www.instagram.com/imdaz.1924/" target="_blank" class="text-white mx-2"><i class="bi bi-instagram"></i></a>
+      </section>
+      <section id="servicos" class="proyectos container">
+        <h2 class="subtitle">Serviços oferecidos</h2>
+        <p class="copy_section">Nesta seção, encontra-se os projetos realizados na instituição por nossos dedicados professores, 
+            que tornam o dia-a-dia das crianças e jovens mais alegres.
+        </p>
+        <article class="container-bg">
+          <div class="card">
+            <div class="cards_text">
+              <h3 class="card_title">Banda de música</h3>
+              <p class="card_copy">
+                A Banda de Música do IMDAZ foi criada como parte das atividades educativas 
+                e culturais do instituto, que se dedicava ao cuidado e formação de jovens em situação de vulnerabilidade. A banda teve 
+                um importante papel na educação musical dos menores, oferecendo-lhes uma oportunidade de desenvolvimento artístico e disciplina. 
+                Ao longo dos anos, tornou-se um símbolo de integração social e uma tradição respeitada na cidade, realizando apresentações em 
+                eventos locais e representando o instituto em diversas ocasiões.
+              </p>
             </div>
+          </div>
+          <div class="background">
+            <img src="./img/foto04.jpg" alt="Banda de música do IMDAZ" class="background_img"/>
+          </div>
+
+          <div class="card">
+            <div class="cards_text">
+              <h3 class="card_title">Reforço Escolar</h3>
+              <p class="card_copy">
+                As aulas de reforço escolar foram implementadas com o objetivo de oferecer suporte educacional adicional para os menores atendidos 
+                pela instituição. Focadas em melhorar o desempenho acadêmico, essas aulas ajudavam os alunos a superar dificuldades em matérias
+                 como português e matemática, promovendo uma educação mais completa e inclusiva. Além de fortalecer o aprendizado, 
+                 as aulas de reforço contribuíam para a formação integral dos jovens, preparando-os melhor para o futuro acadêmico e profissional.
+              </p>
+            </div>
+          </div>
+          <div class="background">
+            <img src="./img/foto05.jpg" alt="Imagem descritiva de reforço escolar" class="background_img"/>
+          </div>
+          <div class="card">
+            <div class="cards_text">
+              <h3 class="card_title">
+                Chlorophyllum<span class="point">.</span>
+              </h3>
+              <p class="card_copy">
+                Pertencente ao filo Basidiomycota e ordem Agaricales, essa
+                espécie costuma ser mais encontrada em locais de clima tropical
+                e subtropical (embora não restrita a essas regiões).Pertencente
+                ao filo Basidiomycota e ordem Agaricales, essa espécie costuma
+                ser mais encontrada em locais de clima tropical e subtropical
+                (embora não restrita a essas regiões).
+              </p>
+            </div>
+          </div>
+          <div class="background">
+            <img src="./assets/img/Chlorophyllum1.jpg" alt="" class="background_img"/>
+          </div>
+        </article>
+      </section>
+
+    </main>
+    <footer class="footer">
+      <section id="contato" class="email container container-modifier">
+        <h2 class="subtitle subtitle-modifier">
+          Projeto de extensão<span class="point">.</span>
+        </h2>
+        <div class="check">
+          <div class="check_item">
+            <i></i>
+            <div class="check_numbers">
+              <p class="check_number">+200</p>
+              <p class="check_copy">Proyectos</p>
+            </div>
+          </div>
+          <div class="check_item">
+            <i></i>
+            <div class="check_numbers">
+              <p class="check_number">+200</p>
+              <p class="check_copy">Proyectos</p>
+            </div>
+          </div>
+          <div class="check_item">
+            <i></i>
+            <div class="check_numbers">
+              <p class="check_number">+200</p>
+              <p class="check_copy">Proyectos</p>
+            </div>
+          </div>
         </div>
-    </div>
-</footer>
+        <form class="newsletter">
+          <input
+            type="text"
+            name=""
+            id=""
+            class="newsletter_input"
+            placeholder="Digitar e-mail"
+          />
+          <input type="submit" class="newsletter_submit" value="Enviar" />
+        </form>
+      </section>
+      <span class="ir-arriba" id="button-down">^</span>
+      <div class="contact">
+        <div class="item_contact">
+          <h3 class="contact_title">FungIFFAR</h3>
+        </div>
+        <div class="item_contact">
+          <h3 class="contact_title">FungIFFAR@gmail.com</h3>
+        </div>
+        <div class="item_contact">
+          <h3 class="contact_title">Panambi/RS</h3>
+        </div>
+        <div class="item_contact">
+          <a
+            href="https://www.instagram.com/fungiffar/?hl=es-la"
+            class="icon-social"
+            target="blank"
+            ><i class="fa fa-instagram" style="font-size: 20px"></i
+          ></a>
+          <a href="https://www.facebook.com/" class="icon-social" target="blank"
+            ><i class="fa fa-facebook" style="font-size: 20px"></i
+          ></a>
+          <a href="https://twitter.com/" class="icon-social" target="blank"
+            ><i class="fa fa-twitter" style="font-size: 20px"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
 
-
-
-<script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
-<script src="script.js"></script>
-
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

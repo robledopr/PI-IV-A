@@ -1,6 +1,6 @@
-$(document).ready(function () {
-    $('.slider').slick({
-        autoplay: true,
-        dots: true
+window.onload = () => {
+    const buttonDown = document.getElementById("button-down");
+    buttonDown.addEventListener("click", () => {
+      window.scrollTo(0, 0);
     });
-});
+  };
