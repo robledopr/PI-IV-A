@@ -160,10 +160,22 @@
             </div>
           </div>
         </div>
-        <form class="newsletter">
-          <input type="text" name="teste" id="formteste" class="newsletter_input" placeholder="Digitar e-mail"/>
-          <input type="submit" class="newsletter_submit" value="Enviar" />
-        </form>
+
+        <div class="contact-form">
+          <h2>Entre em Contato</h2>
+          <form action="#" method="POST">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" placeholder="Digite seu nome" required>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+            <label for="subject">Assunto:</label>
+            <input type="text" id="subject" name="subject" placeholder="Assunto da mensagem" required>
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" placeholder="Escreva sua mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
+
       </section>
       <span class="ir-arriba" id="button-down">^</span>
       <div class="contact">
