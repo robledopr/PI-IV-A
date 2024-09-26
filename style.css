@@ -534,7 +534,7 @@ body {
   color: var(--verde1);
 }
 
-.ir-arriba {
+.subir {
   display: inline-block;
   padding: 20px;
   background: var(--verde1);
