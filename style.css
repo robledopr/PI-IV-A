@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap");
 
 :root {
-  --verde1: #82e0aa;
-  --verde2: #2ecc71;
+  --laranja1: #e78653;
+  --laranja2: #d54e00;
   --gray1: #ffffff80;
   --gray2: #f7d9d990;
   --black1: #1a1b1f;
@@ -58,7 +58,7 @@ body {
   font-size: 26px;
 }
 .logo_name:hover {
-  color: var(--verde1);
+  color: var(--laranja1);
 }
 
 .link {
@@ -70,12 +70,12 @@ body {
   padding: 10px;
 }
 .link:hover {
-  color: var(--verde1);
+  color: var(--laranja1);
   font-weight: 700;
 }
 
 .link-active {
-  color: var(--verde1);
+  color: var(--laranja1);
   font-weight: 700;
 }
 .link-active:hover {
@@ -95,7 +95,7 @@ body {
 }
 
 .pesquisar input[type="text"]:focus {
-    border-color: var(--verde1);
+    border-color: var(--laranja1);
 }
 
 .pesquisar button {
@@ -107,7 +107,7 @@ body {
 }
 
 .point {
-  color: var(--verde1);
+  color: var(--laranja1);
 }
 
 .hero_main {
@@ -136,7 +136,7 @@ body {
 }
 
 .title_active {
-  color: var(--verde1);
+  color: var(--laranja1);
   font-weight: 700;
 }
 
@@ -154,7 +154,7 @@ body {
 .cta {
   padding: 20px 30px;
   display: inline-block;
-  background: linear-gradient(180deg, var(--verde1) 0%, var(--verde2) 100%);
+  background: linear-gradient(180deg, var(--laranja1) 0%, var(--laranja2) 100%);
   text-decoration: none;
   color: var(--black2);
   font-weight: 700;
@@ -222,7 +222,7 @@ body {
 }
 
 .card_list {
-  color: var(--verde2);
+  color: var(--laranja2);
   font-weight: 700;
   margin: 25px 0 12px;
   font-size: 18px;
@@ -448,13 +448,13 @@ body {
 }
 
 .item_contact-verde {
-  background: linear-gradient(180deg, var(--verde1) 0%, var(--verde2) 100%);
+  background: linear-gradient(180deg, var(--laranja1) 0%, var(--laranja2) 100%);
   color: var(--black1);
 }
 
 .contact_icon {
   font-size: 14px;
-  color: var(--verde1);
+  color: var(--laranja1);
   line-height: 20px;
   margin-right: 4px;
 }
@@ -467,8 +467,8 @@ body {
   max-width: 600px;
   margin: 50px auto;
   padding: 30px;
-  background-color: #fff;
-  box-shadow: var(--verde2);
+
+  box-shadow: var(--laranja2);
   border-radius: 8px;
 }
 
@@ -502,7 +502,7 @@ body {
 .contact-form button {
   width: 100%;
   padding: 12px;
-  background-color: var(--verde1);
+  background-color: var(--laranja1);
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -512,13 +512,13 @@ body {
 }
 
 .contact-form button:hover {
-  background-color: var(--verde2);
+  background-color: var(--laranja2);
 }
 
 .contact-form input:focus,
 .contact-form textarea:focus {
   outline: none;
-  border: 2px solid var(--verde2); 
+  border: 2px solid var(--laranja2); 
 }
 
 .contact_title {
@@ -531,13 +531,13 @@ body {
   padding: 10px;
 }
 .icon-social:hover {
-  color: var(--verde1);
+  color: var(--laranja1);
 }
 
 .subir {
   display: inline-block;
   padding: 20px;
-  background: var(--verde1);
+  background: var(--laranja1);
   font-size: 20px;
   color: #fff;
   cursor: pointer;
@@ -705,3 +705,28 @@ body {
   }
 }
 
+footer {
+  background-color: #343a40;
+}
+
+footer h5 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+footer p {
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+footer a {
+  color: #ffffff;
+}
+
+footer a:hover {
+  color: #dddddd;
+}
+
+footer .fa-2x {
+  font-size: 1.5rem;
+}
